@@ -1,1 +1,42 @@
-body{background-color: skyblue;}
+html, body{ 
+      
+    background-image: url(../../images/hein-dog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+img.logo{    transform: scale(0.2)}
+
+.navbar{
+    height: 80px; 
+    background-color: rgba(160, 160, 160, 0.15);
+    border-color: #E7E7E7;
+    margin-bottom: 18px;
+    border-top: 18px;
+}
+
+a.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+a{
+    
+    color: rgb(23,23,23);
+}
+
+
+/* Body */
+
+.baju{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    
+}
+
+pre{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
