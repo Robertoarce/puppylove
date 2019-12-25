@@ -16,7 +16,7 @@ img.logo{
 }
   
  #navybar #logo-letters{
-    font-size: 1.3rem;
+    font-size: 4vw;
     font-weight: bolder;
 } 
   
@@ -30,21 +30,21 @@ dropdown-item.a:hover{
 
 
 /* Body */
-
-.no_one_has;{
-    position: absolute;
-    top: 30%;
-    left: 10%;   
-}
-
+ 
 /* --------- Body ------------ */
 pre, #logo-letters{
     font-family: 'Indie Flower', cursive;
-    font-size: 1.1rem;
+    font-size: 2.6vw;
 }
 
 pre{
-position: relative;
+ 
+    height: 11vw;
+    width: 36vw;
+    position: absolute;
+    right: 6%;
+    top:35%;
+
 }
 
  
