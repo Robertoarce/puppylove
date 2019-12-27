@@ -3,6 +3,7 @@ body{
     background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  
     background: linear-gradient(to right, #ffffff, #fffc00);  */
      background-color: rgba(254, 255, 58, 0.75);
+      
 } 
 img.logo{   
     height: auto;
@@ -18,12 +19,12 @@ img.logo{
 }
   
  #navybar #logo-letters{
-    font-size: 3vw;
+    font-size: max(1.5em, 3vw);
     font-weight: bolder;
 }  
 
 .navbar, .dropdown-menu{
-    font-size: 1.5vw;;
+    font-size: max(1em,1.5vw);
 }
 .dropdown-menu{
     background-color:  rgba(255, 255, 255, 0.02);
@@ -42,7 +43,7 @@ a.dropdown-item:hover{
 /* --------- Body ------------ */
 pre, #logo-letters{
     font-family: 'Indie Flower', cursive;
-    font-size: 2.6vw;
+    font-size: max(1.2em,2.6vw);
 }
 
 
@@ -51,18 +52,19 @@ pre, #logo-letters{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100vw;
+    max-width: 100%;
     margin: 0px;
     height: 180vh;
     width: 100vw; 
 }
-pre{
- 
-    height: 11vw;
-    width: 36vw;
+pre{  
+
+
     position: absolute;
     right: 6%;
     top:80%;
+    text-shadow:
+    0px -0.1px 0px rgb(121, 121, 121)
 
 }
 
@@ -71,7 +73,7 @@ pre{
 .container-fluid{
     /* background-color: #92B9BD;  */
 
-    font-size: 2vw;
+    font-size: max(2em,2vw);
     padding:0px;
     margin:0px;
     border-top:2px solid rgba(255, 255, 255, 0.02);
@@ -85,6 +87,6 @@ p {
 }
 b{
     font-family: 'Indie Flower', cursive;
-    font-size: 2.5vw;
+    font-size: max(1em,2.5vw);
 }
 
