@@ -5,8 +5,8 @@
 img.logo{   
     height: auto;
     width: auto;
-    max-width: 50px;
-    margin-left: 20px;
+    max-width: 5.5vw;
+    margin-left: 2vw;
 }
 .navbar{ 
     background-color: rgba(160, 160, 160, 0.15);
@@ -16,16 +16,18 @@ img.logo{
 }
   
  #navybar #logo-letters{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bolder;
-} 
-  
+}  
 
+.navbar, .dropdown-menu{
+    font-size: 1.5vw;;
+}
 .dropdown-menu{
     background-color:  rgba(255, 255, 255, 0.02);
 }
-dropdown-item.a:hover{
-    background-color:  rgba(255, 255, 255, 32);
+a.dropdown-item:hover{
+    background-color:  rgba(195, 255, 0, 0.739);
 }
 
 
