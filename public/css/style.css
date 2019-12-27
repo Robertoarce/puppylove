@@ -1,7 +1,9 @@
- body{ 
-    background: url(../../images/hein-dog.jpg) top center / cover no-repeat;
-}
-
+body{
+    /* background: rgba(255,252,0,0.5);   
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  
+    background: linear-gradient(to right, #ffffff, #fffc00);  */
+     background-color: rgba(254, 255, 58, 0.75);
+} 
 img.logo{   
     height: auto;
     width: auto;
@@ -30,6 +32,10 @@ a.dropdown-item:hover{
     background-color:  rgba(195, 255, 0, 0.739);
 }
 
+.nav-item:hover{
+    background-color:  rgba(195, 255, 0, 0.739);
+}
+
 
 /* Body */
  
@@ -39,6 +45,17 @@ pre, #logo-letters{
     font-size: 2.6vw;
 }
 
+
+.container{ 
+    background: url(../../images/hein-dog.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    margin: 0px;
+    height: 180vh;
+    width: 100vw; 
+}
 pre{
  
     height: 11vw;
@@ -49,4 +66,25 @@ pre{
 
 }
 
- 
+/* ----------- second container ---------------- */
+
+.container-fluid{
+    /* background-color: #92B9BD;  */
+
+    font-size: 2vw;
+    padding:0px;
+    margin:0px;
+    border-top:2px solid rgba(255, 255, 255, 0.02);
+
+}
+p { 
+    margin-top: 1px solid rgb(190, 44, 44);
+    padding: 3.5%;
+    text-align: center; 
+     
+}
+b{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5vw;
+}
+
