@@ -1,10 +1,12 @@
 body{
-    /* background: rgba(255,252,0,0.5);   
-    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  
-    background: linear-gradient(to right, #ffffff, #fffc00);  */
-     background-color: rgba(254, 255, 58, 0.75);
-      
+    /* background: #ff714d;   
+    background: -webkit-linear-gradient(to right, #f8b47f, #ff714d);   
+    background: linear-gradient(to right, #f8b47f, #ff714d);   */
+     background-color: #151212;
 } 
+.top-separator{
+    margin-top: max(25rem,30vw);
+}
 img.logo{   
     height: auto;
     width: auto;
@@ -38,17 +40,19 @@ a.dropdown-item:hover{
 }
 
 
-/* Body */
+/* Home */
  
 /* --------- Body ------------ */
 pre, #logo-letters{
     font-family: 'Indie Flower', cursive;
     font-size: max(1.2em,2.6vw);
 }
-
+p{    background-color: rgba(48, 192, 255, 0.75);
+    color: #0f1715; 
+}
 
 .container{ 
-    background: url(../../images/hein-dog.jpg);
+    background: url("../../public/images/hein-dog.jpg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -72,21 +76,59 @@ pre{
 
 .container-fluid{
     /* background-color: #92B9BD;  */
-
+    
     font-size: max(2em,2vw);
     padding:0px;
     margin:0px;
-    border-top:2px solid rgba(255, 255, 255, 0.02);
-
+    
 }
 p { 
     margin-top: 1px solid rgb(190, 44, 44);
     padding: 3.5%;
     text-align: center; 
-     
+    
 }
 b{
     font-family: 'Indie Flower', cursive;
     font-size: max(1em,2.5vw);
 }
 
+/* ----------- carousel ---------------- */
+.slidecarousel{
+    height:  max(30rem,26vw);
+    /* padding-left: max(5rem,9vw);
+    padding-right: max(5rem,9vw); */
+    text-align: -webkit-center;
+      margin-top: max(9rem,9vw);
+} 
+
+.carousel-caption>p{
+    background-color: transparent;
+    position: absolute;
+    top: -121%;
+    left: 37%;
+    color: black;
+     text-shadow:
+    0px -0.1px 0px rgb(121, 121, 121),
+    0px -0.1px 0px rgb(121, 121, 121);
+    font-family: 'Indie Flower', cursive;
+    font-size: max(1em,2.5vw);
+}
+.carousel-caption>p.third{
+    background-color: transparent;
+    position: absolute;
+    top: -151%;
+    left: 37%;
+    color: white;
+     text-shadow:
+    0px -0.1px 0px rgb(0, 0, 0) ;
+    font-family: 'Indie Flower', cursive;
+    font-size: max(1em,2.5vw);
+
+}
+
+.w-50{
+position: relative;
+    height: max(27rem,32vw);
+      
+}
