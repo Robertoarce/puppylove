@@ -47,9 +47,7 @@ pre, #logo-letters{
     font-family: 'Indie Flower', cursive;
     font-size: max(1.2em,2.6vw);
 }
-p{    background-color: rgba(48, 192, 255, 0.75);
-    color: #0f1715; 
-}
+
 
 .container{ 
     background: url("../../public/images/hein-dog.jpg");
@@ -82,11 +80,12 @@ pre{
     margin:0px;
     
 }
-p { 
-    margin-top: 1px solid rgb(190, 44, 44);
+p.fairworld {  
     padding: 3.5%;
     text-align: center; 
-    
+    background-color: rgba(48, 192, 255, 0.75);
+    color: #0f1715; 
+ 
 }
 b{
     font-family: 'Indie Flower', cursive;
@@ -101,31 +100,50 @@ b{
     text-align: -webkit-center;
       margin-top: max(9rem,9vw);
 } 
+img.carousel-image{
+    width: 80%; 
+    display: block;
+}
+ 
+.carousel-caption {
+    position: relative; 
+    z-index: 10; 
+    text-align: center;
+}
 
-.carousel-caption>p{
-    background-color: transparent;
-    position: absolute;
-    top: -121%;
-    left: 37%;
-    color: black;
-     text-shadow:
-    0px -0.1px 0px rgb(121, 121, 121),
-    0px -0.1px 0px rgb(121, 121, 121);
+.view>p{
+    background-color: transparent; 
+    width:  100%;
     font-family: 'Indie Flower', cursive;
     font-size: max(1em,2.5vw);
 }
-.carousel-caption>p.third{
-    background-color: transparent;
-    position: absolute;
-    top: -151%;
-    left: 37%;
+
+.view>p.first{
+    
+     position: absolute;
+     bottom:0px;
+     margin-bottom: 0px;
+     color: black;
+     text-shadow:
+    0px -0.1px 0px rgb(121, 121, 121);
+} 
+.view>p.second{
+    
+     position: absolute;
+     bottom:0px;
+     margin-bottom: 0px;
+     color: black;
+     text-shadow:
+    0px -0.1px 0px rgb(121, 121, 121);
+} 
+.view>p.third{
+    
+    bottom: max(2em,8.5vw);
     color: white;
      text-shadow:
     0px -0.1px 0px rgb(0, 0, 0) ;
-    font-family: 'Indie Flower', cursive;
-    font-size: max(1em,2.5vw);
-
 }
+
 
 .w-50{
 position: relative;
